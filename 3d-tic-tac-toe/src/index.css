@@ -1,0 +1,9 @@
+.table-square-wrapper {
+  width: 30vw; /* 30% of viewport width */
+  aspect-ratio: 1; /* makes it a perfect square */
+}
+.table-square-wrapper table {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
